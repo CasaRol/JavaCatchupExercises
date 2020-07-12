@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocalGameActivity">
+
+    <TextView
+        android:id="@+id/place7"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/place8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/place6"
+        app:layout_constraintTop_toBottomOf="@+id/place4"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/place0"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/place1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/place1"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/place2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/place2"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/place3"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place0" />
+
+    <TextView
+        android:id="@+id/place4"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toStartOf="@+id/place5"
+        app:layout_constraintStart_toEndOf="@+id/place3"
+        app:layout_constraintTop_toBottomOf="@+id/place1" />
+
+    <TextView
+        android:id="@+id/place5"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place2" />
+
+    <TextView
+        android:id="@+id/place6"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place3"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/place8"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="#686868"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place5"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/gameScreenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/local_game"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/currentPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/current_player"
+        app:layout_constraintEnd_toStartOf="@+id/playerID"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameScreenTitle" />
+
+    <TextView
+        android:id="@+id/playerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameScreenTitle" />
+
+    <TextView
+        android:id="@+id/winnerLabel"
+        android:layout_width="262dp"
+        android:layout_height="29dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/place1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentPlayer" />
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Gameboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

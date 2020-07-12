@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="tic_tac_toe">Tic-Tac-Toe</string>
+    <string name="new_game">New Game</string>
+    <string name="local_game">Local Game</string>
+    <string name="online_game">Online Game</string>
+    <string name="current_player">Current Player:</string>
+</resources>
